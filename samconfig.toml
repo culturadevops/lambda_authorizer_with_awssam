@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "aut3"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-h1c39jmg8osp"
+s3_prefix = "aut3"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
